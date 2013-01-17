@@ -3,7 +3,8 @@
 		"laravel/framework": "4.0.*",
 		"meido/html": "1.1.*",
 		"meido/form": "1.1.*",
-		"bigelephant/string": "dev-master"
+		"bigelephant/string": "dev-master",
+		"raveren/kint": "dev-master"
 	},
 	"autoload": {
 		"classmap": [
