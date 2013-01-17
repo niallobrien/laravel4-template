@@ -31,9 +31,13 @@ This is a good starting point for Laravel 4 projects as I've included some extra
 1. Meido/Form
 2. Meido/HTML
 3. bigelephant/string
+4. raveren/kint
 
 Included are [Meido](https://github.com/meido)'s Form and HTML classes, which are direct ports from Laravel 3.
+
 [Really Big Elephant](https://github.com/bigelephant/) released a nice [String](https://github.com/bigelephant/string) class, that does much more than a port of Str released by Meido, so that's included here instead. Note, the class alias is **String** not **Str** as you may be used to from Laravel 3.
+
+dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great degugging helper.
 
 ### Contributing To Laravel
 
