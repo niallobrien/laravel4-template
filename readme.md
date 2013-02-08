@@ -38,7 +38,7 @@ Included are [Meido](https://github.com/meido)'s Form and HTML classes, which ar
 
 [Really Big Elephant](https://github.com/bigelephant/) released a nice [String](https://github.com/bigelephant/string) class, that does much more than a port of Str released by Meido, so that's included here instead. Note, the class alias is **String** not **Str** as you may be used to from Laravel 3.
 
-dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great degugging helper.
+dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great debugging helper.
 
 For running tests, [PHPunit](https://github.com/sebastianbergmann/phpunit/) is required, so I've added it to dev. To install, run:
 		
