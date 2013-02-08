@@ -171,7 +171,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 		'HTML' 			  => 'Meido\HTML\HTMLFacade',
 		'Form' 			  => 'Meido\Form\FormFacade',
-		'String' => 'BigElephant\String\StringFacade`
+		'String' => 'BigElephant\String\StringFacade'
 
 	),
 
