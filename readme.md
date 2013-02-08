@@ -32,6 +32,7 @@ This is a good starting point for Laravel 4 projects as I've included some extra
 2. Meido/HTML
 3. bigelephant/string
 4. raveren/kint
+5. PHPunit
 
 Included are [Meido](https://github.com/meido)'s Form and HTML classes, which are direct ports from Laravel 3.
 
@@ -39,6 +40,13 @@ Included are [Meido](https://github.com/meido)'s Form and HTML classes, which ar
 
 dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great degugging helper.
 
+For running tests, [PHPunit](https://github.com/sebastianbergmann/phpunit/) is required, so I've added it to dev. To install, run:
+		
+		php composer.phar install --dev
+		
+Then within your project directory, run 'phpunit' (without quotes) to run the example tests included with L4.
+See the [Unit testing L4 docs](http://four.laravel.com/docs/testing) for more info. 
+	
 ### Contributing To Laravel
 
 **All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**

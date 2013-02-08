@@ -1,19 +1,27 @@
 {
-	"require": {
-		"laravel/framework": "4.0.*",
-		"meido/html": "1.1.*",
-		"meido/form": "1.1.*",
-		"bigelephant/string": "dev-master",
-		"raveren/kint": "dev-master"
-	},
-	"autoload": {
-		"classmap": [
-			"app/commands",
-			"app/controllers",
-			"app/models",
-			"app/database/migrations",
-			"app/tests/TestCase.php"
-		]
-	},
-	"minimum-stability": "dev"
+    "require": {
+        "laravel/framework": "4.0.*",
+        "meido/form": "1.1.*",
+        "meido/html": "1.1.*",
+        "bigelephant/string": "dev-master",
+        "raveren/kint": "dev-master"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/database/migrations",
+            "app/tests/TestCase.php"
+        ]
+    },
+    "minimum-stability": "dev"
 }
