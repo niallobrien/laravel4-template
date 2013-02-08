@@ -109,6 +109,10 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'Meido\HTML\HTMLServiceProvider',
+        'Meido\Form\FormServiceProvider',
+        'BigElephant\String\StringServiceProvider',
+
 
 	),
 
@@ -171,6 +175,9 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'HTML'       => 'Meido\HTML\HTMLFacade',
+        'Form'       => 'Meido\Form\FormFacade',
+        'String' => 'BigElephant\String\StringFacade'
 
 	),
 
