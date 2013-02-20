@@ -109,6 +109,7 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'LaravelBook\Laravel4Powerpack\Providers\PowerpackServiceProvider',
 
 	),
 
@@ -172,6 +173,8 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+		'HTML' => 'LaravelBook\Laravel4Powerpack\Facades\HTMLFacade',
+		'Form' => 'LaravelBook\Laravel4Powerpack\Facades\FormFacade',
 
 	),
 
