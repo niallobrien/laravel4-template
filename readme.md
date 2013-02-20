@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 ## Laravel 4 Starter Template
+=======
+## Laravel 4.x
+>>>>>>> upstream/develop
 
 ### A Framework For Web Artisans
 
 [Official Documentation](http://four.laravel.com) (Under Active Development)
 
+<<<<<<< HEAD
 ### Starter Template Usage
 This starter template is designed to get you up and going with Laravel 4 as quickly as possible.
 Laravel 4 has removed certain functionality that was available in Laravel 3. The reason was due to duplication of work.
@@ -43,6 +48,8 @@ For running tests, [PHPunit](https://github.com/sebastianbergmann/phpunit/) is r
 Then within your project directory, run 'phpunit' (without quotes) to run the example tests included with L4.
 See the [Unit testing L4 docs](http://four.laravel.com/docs/testing) for more info. 
 	
+=======
+>>>>>>> upstream/develop
 ### Contributing To Laravel
 
 **All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**

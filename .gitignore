@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 *.DS_Store
+=======
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+.readme.md
+.composer.json
+>>>>>>> upstream/develop

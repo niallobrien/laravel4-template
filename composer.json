@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "require": {
         "laravel/framework": "4.0.*",
         "laravelbook/laravel4-powerpack": "dev-master"
@@ -23,3 +24,20 @@
     },
     "minimum-stability": "dev"
 }
+=======
+	"require": {
+		"laravel/framework": "4.0.*"
+	},
+	"autoload": {
+		"classmap": [
+			"app/commands",
+			"app/controllers",
+			"app/models",
+			"app/database/migrations",
+			"app/database/seeds",
+			"app/tests/TestCase.php"
+		]
+	},
+	"minimum-stability": "dev"
+}
+>>>>>>> upstream/develop
