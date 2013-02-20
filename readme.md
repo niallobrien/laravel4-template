@@ -28,15 +28,11 @@ This is a good starting point for Laravel 4 projects as I've included some extra
 #####Git to work! :)
 
 ### Added Packages
-1. Meido/Form
-2. Meido/HTML
-3. bigelephant/string
+1. laravelbook/laravel4-powerpack
 4. raveren/kint
 5. PHPunit
 
-Included are [Meido](https://github.com/meido)'s Form and HTML classes, which are direct ports from Laravel 3.
-
-[Really Big Elephant](https://github.com/bigelephant/) released a nice [String](https://github.com/bigelephant/string) class, that does much more than a port of Str released by Meido, so that's included here instead. Note, the class alias is **String** not **Str** as you may be used to from Laravel 3.
+Included is [Laravelbook](http://github.com/laravelbook/)'s PowerPack which includes HTML, Form and String helpers. Some of these will be in L4 when officially released, so use these packages for now. 
 
 dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great debugging helper.
 
