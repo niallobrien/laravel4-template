@@ -17,7 +17,7 @@ Now that Laravel 4 is using Composer (php equivalent of node's NPM or Ruby's RVM
 		git clone https://github.com/niallobrien/laravel4-template.git name-of-project
 		cd name-of-project
 
-This is a good starting point for Laravel 4 projects as I've included some extra helpful packages (more on this later).
+This is a good starting point for Laravel 4 projects.
 
 #####Install Composer inside your project directory.
 		curl -s http://getcomposer.org/installer | php
@@ -28,11 +28,8 @@ This is a good starting point for Laravel 4 projects as I've included some extra
 #####Git to work! :)
 
 ### Added Packages
-1. laravelbook/laravel4-powerpack
-4. raveren/kint
-5. PHPunit
-
-Included is [Laravelbook](http://github.com/laravelbook/)'s PowerPack which includes HTML, Form and String helpers. Some of these will be in L4 when officially released, so use these packages for now. 
+1. raveren/kint
+2. PHPunit
 
 dd() is no longer available in L4, so I've included [Kint](https://github.com/raveren/kint) which is a great debugging helper.
 
